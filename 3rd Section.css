@@ -1,0 +1,91 @@
+.Section-3{
+  display: flex;
+  position: relative;
+  min-height: 65vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(0,9,30,0.7)),url(Attractions/Background1.webp);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  opacity: 150%;
+}
+
+.Extra{ /* Extra Background: */
+  display: flex;
+  position: relative;
+  min-height: 5vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(0,9,30,0.7)),url(Attractions/Background1.webp);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 1200px;
+  opacity: 150%;
+}
+
+
+.Left-section1{
+  position: absolute;
+  font-size: 50px;
+  width: 50%;
+  height: 100%;
+
+  border: 1px solid rgb(90, 89, 89);
+}
+
+.layer{
+  position: absolute;
+  top: 0px;
+  width: 421px;
+  height: 633px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 35px;
+  margin-left: 50px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.layer a{
+  text-decoration: none;
+  transition: 0.1s;
+  color: rgb(0, 110, 255);
+}
+
+.layer a:hover{
+  text-decoration: underline;
+  color: rgb(0, 110, 255);
+}
+
+
+.layer h4{
+  color: #fff;
+  font-family: Arial;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 138%;
+  transition: 0.5s;
+  text-decoration:none;
+}
+
+.layer:hover{
+  background-color: rgba(235,0,0,0.7);
+}
+
+.layer:hover h4{
+  margin-top: 300px;
+  
+}
+
+.Right-section1{
+  position: absolute;
+  font-size: 50px;
+  width: 50%;
+  height: 100%;
+  transform: translate(100%);
+
+  border: 1px solid rgb(90, 89, 89);
+}
+
+

@@ -1,0 +1,390 @@
+@media (max-height:1920px) {
+  .Section-2{
+    margin-left: -50px;;
+  }
+
+  .Shop-now{
+    margin-right: -50px;
+  }
+
+  .text-box1{
+    margin-left: 100px;
+  }
+
+  .layer{
+    height: 600px;
+    width: 400px;
+  }
+  
+  .layer:hover h4{
+    margin-top: 280px;
+  }
+
+  .Section-3 .Clothes-first-row img{
+    height: 600px;
+  }
+  .div2-1 img{
+    height: 350px;
+    margin-left: 70px;
+  }
+
+  .div2-2 img{
+    height: 350px;
+    margin-left: 50px;
+  }
+
+  .div2-3 img{
+    height: 350px;
+    margin-left: 50px;
+  }
+}
+
+
+@media (max-width:1320px) {
+  .Middle-section{
+    display: none;
+  }
+
+  .Right-section{
+    display: none;
+  }
+
+  .left-section img{
+    width: 60%;
+    object-fit: contain;
+    height: 12%;
+    left: 8%;
+  }
+
+  .container{
+  display: block;
+  }
+}
+
+@media (max-width:1740px){
+  .Section-2{
+    left: -170px;
+    width: 135%;
+    flex-wrap: wrap;
+  }
+
+  .attraction .img1{
+    height: 300px;
+  }
+  .attraction .img2{
+    height: 300px;
+  }
+  .attraction .img3{
+    height: 300px;
+  }
+  .attraction .img4{
+    height: 300px;
+  }
+  .attraction .img5{
+    height: 300px;
+  }
+  .attraction .img6{
+    height: 300px;
+  }
+}
+
+@media (max-width:1540px){
+  .Section-2{
+    left: -170px;
+    width: 135%;
+    flex-wrap: wrap;
+  }
+
+  .attraction .img1{
+    height: 200px;
+  }
+
+  .div1 p{
+    margin-left: 110px;
+    width: 130px;
+  }
+
+  .attraction .img2{
+    height: 200px;
+  }
+
+  .div2 p{
+    margin-left: 67px;
+    width: 130px;
+  }
+
+  .attraction .img3{
+    height: 200px;
+  }
+
+  .div3 p{
+    margin-left: 75px;
+    width: 130px;
+  }
+
+  .attraction .img4{
+    height: 200px;
+    margin-left: 75px;
+  }
+
+  .div4 p{
+    margin-left: 75px;
+    width: 130px;
+  }
+
+  .attraction .img5{
+    height: 200px;
+    margin-left: 65px;
+  }
+
+  .div5 p{
+    margin-left: 65px;
+    width: 130px;
+  }
+
+  .attraction .img6{
+    height: 200px;
+  }
+
+  .div6 p{
+    margin-left: 55px;
+    width: 130px;
+  }
+
+  .Shop-now1{
+    top: 70px;
+    margin-left: 740px;
+    font-size: 23px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 320px;
+  }
+}
+
+@media (max-width:1540px){
+  .Section-2{
+    margin-left: -50px;
+    left: -170px;
+    width: 135%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:1370px){
+  .Section-2{
+    left: -170px;
+    width: 135%;
+    flex-wrap: wrap;
+  }
+
+  .Shop-now1{
+    top: 70px;
+    margin-left: 685px;
+    font-size: 24px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 30px;
+    width: 335px;
+  }
+
+  .attraction .img1{
+    height: 200px;
+  }
+
+  .div1 p{
+    margin-left: 50px;
+  }
+
+  .attraction .img2{
+    height: 200px;
+    margin-left: -50px;
+  }
+  .attraction .img3{
+    height: 200px;
+    margin-left: -50px;
+  }
+  .attraction .img4{
+    height: 200px;
+    margin-left: -50px;
+  }
+  .attraction .img5{
+    height: 200px;
+    margin-left: -50px;
+  }
+  .attraction .img6{
+    height: 200px;
+    margin-left: -100px;
+  }
+
+  .div2 link{
+    margin-left: 0px;
+  }
+}
+
+@media (max-width:1050px){
+  .attraction .img1{
+    height: 150px;
+  }
+
+  .div1 p{
+    width: 120px;
+    margin-left: 100px;
+    font-size: 18px;
+  }
+
+  .attraction .img2{
+    height: 150px;
+    margin-left: 40px;
+    
+  }
+
+  .div2 p{
+    width: 115px;
+    margin-left: 40px;
+    font-size: 18px;
+  }
+
+  .attraction .img3{
+    height: 150px;
+    margin-left: 40px;
+  }
+
+  .div3 p{
+    width: 115px;
+    margin-left: 40px;
+    font-size: 18px;
+  }
+
+  .attraction .img4{
+    height: 150px;
+    margin-left: 40px;
+  }
+
+  .div4 p{
+    width: 115px;
+    margin-left: 40px;
+    font-size: 18px;
+  }
+
+  .attraction .img5{
+    height: 150px;
+    margin-left: 40px;
+  }
+
+  .div5 p{
+    width: 115px;
+    margin-left: 40px;
+    font-size: 18px;
+  }
+
+  .attraction .img6{
+    height: 150px;
+    margin-left: 40px;
+  }
+
+  .div6 p{
+    width: 115px;
+    margin-left: 40px;
+    font-size: 18px;
+  }
+
+  .Shop-now1{
+    top: 70px;
+    margin-left:560px;
+    font-size: 20px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 265px;
+  }
+}
+
+
+@media (max-width:856px) {
+  .attraction .img1{
+    height: 130px;
+    border: 3px solid gray;
+  }
+
+  .div1 p{
+    width: 85px;
+    margin-left: 105px;
+    font-size: 15px;
+  }
+
+  .attraction .img2{
+    margin-top: 100px;
+    height: 130px;
+    margin-left: 30px;
+    border: 3px solid gray;
+  }
+
+  .div2 p{
+    width: 85px;
+    margin-left: 45px;
+    font-size: 15px;
+  }
+
+  .attraction .img3{
+    margin-top: 180px;
+    height: 130px;
+    margin-left: 30px;
+    border: 3px solid gray;
+  }
+
+  .div3 p{
+    margin-top: 2px;
+    width: 105px;
+    margin-left: 40px;
+    font-size: 18px;
+  }
+
+  .attraction .img4{
+    margin-top: 180px;
+    height: 130px;
+    margin-left: 30px;
+    border: 3px solid gray;
+  }
+
+  .div4 p{
+    margin-top: 2px;
+    width: 105px;
+    margin-left: 40px;
+    font-size: 18px;
+  }
+
+  .attraction .img5{
+    height: 130px;
+    margin-left: 20px;
+    border: 3px solid gray;
+  }
+
+  .div5 p{
+    width: 85px;
+    margin-left: 25px;
+    font-size: 18px;
+  }
+
+  .attraction .img6{
+    height: 130px;
+    margin-left: 20px;
+    border: 3px solid gray;
+  }
+
+  .div6 p{
+    width: 105px;
+    margin-left: 25px;
+    font-size: 18px;
+  }
+
+  .Shop-now1{
+    top: 70px;
+    margin-left:500px;
+    font-size:18px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 235px;
+  }
+}

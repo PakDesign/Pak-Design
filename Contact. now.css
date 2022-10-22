@@ -1,0 +1,73 @@
+.Section-6{
+  background-color: green;
+  display: flex;
+  position: relative;
+  min-height: 20vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(0,9,30,0.7)),url(Attractions/Background6.webp);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  opacity: 150%;
+}
+
+.Contact-now{
+  width: 300px;
+  height: 70px;
+  position: absolute;
+  color: black;
+  font-size: 40px;
+  left: 800px;
+  top: 30px;
+  padding-left: 90px;
+  padding-top: 18px;
+  background-color: rgb(8, 255, 202);
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(13, 146, 255);
+  transition: 0.15s;
+}
+
+.Contact-now p{
+  color: black;
+  font-family: Roboto;
+}
+
+.Contact-now:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 85%;
+}
+
+.Instagram img{
+  position: absolute;
+  height: 50px;
+  top: 140px;
+  left: 800px;
+}
+
+.Instagram img:hover{
+  opacity: 85%;
+}
+
+.Instagram img:active{
+  opacity: 75%;
+}
+
+.Instagram .Facebook{
+  margin-left: 110px;
+  top: 142px;
+  height: 48px;
+  border-radius: 5px;
+}
+
+.Instagram .Twitter{
+  top: 145px;
+  margin-left: 220px;
+  height: 45px;
+}
+
+.Instagram .Telegram{
+  margin-left: 330px;
+}

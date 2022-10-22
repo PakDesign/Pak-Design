@@ -1,0 +1,394 @@
+.Section-5{
+  background-color: green;
+  display: flex;
+  position: relative;
+  min-height: 195vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(0,9,30,0.7)),url(Attractions/Makeup.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  opacity: 150%;
+}
+
+.Makeup-title{
+  display: flex;
+  font-size: 50px;
+  color: #fff;
+  transform: translate(510%);
+  height: 0;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  background-color: red;
+}
+
+.Makeup-title1{
+  position: absolute;
+  display: flex;
+  font-size: 50px;
+  margin-left: -170px;
+  top: 18px;
+  color: rgb(90, 85, 85);
+  margin-top: 30px;
+}
+
+
+
+.layer2{
+  position: absolute;
+  top: 10.5%;
+  height: 503px;
+  width: 852.5px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 35px;
+  margin-left: -135px;
+  transition: 0.5s;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.layer2 a{
+  text-decoration: none;
+  transition: 0.1s;
+  color: rgb(0, 110, 255);
+}
+
+.layer2 a:hover{
+  text-decoration: underline;
+  color: rgb(0, 110, 255);
+}
+
+
+.layer2 h4{
+  background-color: red;
+  width: 0;
+  color: #fff;
+  font-family: Arial;
+  margin-left: 330px;
+  font-size: 40px;
+  margin-top: 53%;
+  transition: 0.5s;
+  text-decoration:none;
+}
+
+.layer2:hover{
+  background-color: rgba(10,0,0,0.7);
+}
+
+.layer2:hover h4{
+  margin-top: 231.5px;
+}
+
+
+.layer3{
+  position: absolute;
+  top: 10.5%;
+  height: 503px;
+  width: 852.5px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 35px;
+  margin-left: 860px;
+  transition: 0.5s;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.layer3 a{
+  text-decoration: none;
+  transition: 0.1s;
+  color: rgb(0, 110, 255);
+}
+
+.layer3 a:hover{
+  text-decoration: underline;
+  color: rgb(0, 110, 255);
+}
+
+
+.layer3 h4{
+  background-color: red;
+  width: 0;
+  color: #fff;
+  font-family: Arial;
+  margin-left: 330px;
+  font-size: 40px;
+  margin-top: 53%;
+  transition: 0.5s;
+  text-decoration:none;
+}
+
+.layer3:hover{
+  background-color: rgba(10,0,0,0.7);
+}
+
+.layer3:hover h4{
+  margin-top: 231.5px;
+}
+
+
+
+
+
+
+.div5-1 img{
+  left: 30px;
+  top: 200px;
+  height: 500px;
+  position: absolute;
+  width: 650px;
+  object-fit: cover;
+  box-shadow: 0 0 200px 10px rgb(0, 0, 0);
+}
+
+.div5-2 img{
+  left: 130px;
+  top: 200px;
+  height: 500px;
+  position: absolute;
+  width: 650px;
+  object-fit: cover;
+  box-shadow: 0 0 200px 10px rgb(185, 182, 182);
+}
+
+.div5-3 img{
+  left: 230px;
+  top: 200px;
+  height: 500px;
+  position: absolute;
+  width: 650px;
+  object-fit: cover;
+  box-shadow: 0 0 200px 10px rgb(0, 0, 0);
+}
+
+
+.div6-1 img{
+  left: 1225px;
+  top: 200px;
+  height: 500px;
+  position: absolute;
+  width: 650px;
+  object-fit: cover;
+  box-shadow: 0 0 200px 10px rgb(0, 0, 0);
+}
+
+.div6-2 img{
+  left: 1125px;
+  top: 200px;
+  height: 500px;
+  position: absolute;
+  width: 650px;
+  object-fit: cover;
+  box-shadow: 0 0 200px 10px rgb(185, 182, 182);
+}
+
+.div6-3 img{
+  left: 1025px;
+  top: 200px;
+  height: 500px;
+  position: absolute;
+  width: 650px;
+  object-fit: cover;
+  box-shadow: 0 0 200px 10px rgb(185, 182, 182);
+}
+
+
+
+
+.Shop-now2{
+  position: absolute;
+  margin-left: 845px;
+  font-size: 35px;
+  font-weight: 550;
+  background:  rgb(4, 176, 255);
+  height: 55px;
+  width: 200px;
+  top: 50px;
+  padding-top: 17px;
+  padding-left: 5px;
+  white-space: nowrap;
+  border-radius: 5px;
+  color: black;
+}
+
+.Shop-now2:hover{
+  cursor: pointer;
+  opacity: 85%;
+}
+
+.Shop-now2:active{
+  opacity: 70%;
+}
+
+
+
+
+
+
+
+.attraction1{
+  display: flex;
+  top: 850px;
+  margin-left: -180px;
+  text-align: center;
+  width: 50px;
+
+}
+
+.attraction1 {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1.5s;
+  animation-iteration-count: 0;
+}
+
+@keyframes example{
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:200px;}
+  75%  {background-color:transparent; left:0px; top:200px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+
+
+.attraction1 .img1{
+  height: 350px;  
+  margin-left: 100px;
+  border: 5px solid gray;
+  width: 230px;
+  object-fit: cover;
+}
+
+.attraction1 .img2{
+  margin-top: 95px;
+  height: 350px;  
+  margin-left: 60px;
+  border: 5px solid gray;
+  width: 230px;
+  object-fit: cover;
+}
+
+.attraction1 .img3{
+  margin-top: 170px;
+  height: 350px;   
+  margin-left: 65px;
+  border: 5px solid gray;
+  border: 5px solid gray;
+  width: 235px;
+  object-fit: cover;
+}
+
+.attraction1 .img4{
+  margin-top: 170px;
+  height: 350px;   
+  margin-left: 0px;
+  border: 5px solid gray;
+  border: 5px solid gray;
+  width: 235px;
+  object-fit: cover;
+}
+
+.attraction1 .img5{
+  margin-top: 95px;
+  height: 350px;   
+  margin-left: 50px;
+  border: 5px solid gray;
+  width: 230px;
+  object-fit: cover;
+}
+
+.attraction1 .img6{
+  height: 350px;   
+  margin-left: 50px;
+  border: 5px solid gray;
+  width: 230px;
+  object-fit: cover;
+}
+
+
+
+
+
+.attraction2{
+  display: flex;
+  top: 1350px;
+  margin-left: -100px;
+  text-align: center;
+  width: 50px;
+
+}
+
+.attraction2 {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1.5s;
+  animation-iteration-count: 0;
+}
+
+@keyframes example{
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:200px;}
+  75%  {background-color:transparent; left:0px; top:200px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+
+
+.attraction2 .img1{
+  height: 350px;  
+  margin-left: 100px;
+  border: 5px solid gray;
+  width: 230px;
+  object-fit: cover;
+}
+
+.attraction2 .img2{
+  margin-top: 95px;
+  height: 350px;   
+  margin-left: 60px;
+  border: 5px solid gray;
+  width: 230px;
+  object-fit: cover;
+}
+
+.attraction2 .img3{
+  margin-top: 170px;
+  height: 350px; ;  
+  margin-left: 62px;
+  border: 5px solid gray;
+  width: 230px;
+  object-fit: cover;
+}
+
+.attraction2 .img4{
+  margin-top: 170px;
+  height: 350px; ;  
+  margin-left: 0px;
+  border: 5px solid gray;
+  width: 230px;
+  object-fit: cover;
+}
+
+.attraction2 .img5{
+  margin-top: 95px;
+  height: 350px;   
+  margin-left: 50px;
+  border: 5px solid gray;
+  width: 230px;
+  object-fit: cover;
+}
+
+.attraction2 .img6{
+  height: 350px; ;  
+  margin-left: 50px;
+  border: 5px solid gray;
+  width: 230px;
+  object-fit: cover;
+}

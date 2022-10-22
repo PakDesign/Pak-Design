@@ -1,0 +1,193 @@
+.Section-2{
+  position: relative;
+  min-height: 75vh;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(0,9,30,0.7)),url(Attractions/Background3.jfif);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: -2px;
+  opacity: 150%;
+  align-items: center;
+}
+
+.text-box1{
+  color: #fff;
+  width: 90%;
+  margin-left: 35px;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+.text-box1 h1{
+  padding-top: 15px;
+}
+
+.Shop-now1{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 780px;
+  font-size: 30px;
+  font-weight: 550;
+  background:  rgb(43, 216, 43);
+  height: 55px;
+  width: 410px;
+  top: 50px;
+  padding-top: 20px;
+  padding-left: 25px;
+  white-space: nowrap;
+  border-radius: 5px;
+}
+
+.attraction{
+  display: flex;
+  margin-top: 80px;
+  margin-left: 140px;
+  text-align: center;
+  width: 50px;
+  position: absolute;
+}
+
+.attraction {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1.5s;
+  animation-iteration-count: 0;
+}
+
+@keyframes example{
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:200px;}
+  75%  {background-color:transparent; left:0px; top:200px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+
+
+.attraction .img1{
+  height: 300px;  
+  margin-left: 100px;
+  border: 5px solid gray;
+}
+
+.attraction .img2{
+  margin-top: 95px;
+  height: 300px;  
+  margin-left: 60px;
+  border: 5px solid gray;
+}
+
+.attraction .img3{
+  margin-top: 170px;
+  height: 300px;  
+  margin-left: 62px;
+  border: 5px solid gray;
+}
+
+.attraction .img4{
+  margin-top: 170px;
+  height: 300px;  
+  margin-left: 0px;
+  border: 5px solid gray;
+}
+
+.attraction .img5{
+  margin-top: 95px;
+  height: 300px;  
+  margin-left: 50px;
+  border: 5px solid gray;
+}
+
+.attraction .img6{
+  height: 300px;  
+  margin-left: 50px;
+  border: 5px solid gray;
+}
+
+.div1 p{
+  font-size: 20px;
+  padding-top: 7px;
+  margin-left: 130px;
+  font-family: Roboto;
+  font-weight: 500;
+  background-color: rgb(230, 227, 227);
+  width: 150px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.div2 p{
+  font-size: 20px;
+  padding-top: 7px;
+  margin-left: 90px;
+  font-family: Roboto;
+  font-weight: 500;
+  background-color: rgb(230, 227, 227);
+  width: 150px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+
+.div3 p{
+  font-size: 20px;
+  padding-top: 7px;
+  margin-left: 100px;
+  font-family: Roboto;
+  font-weight: 500;
+  background-color: rgb(215, 218, 39);
+  width: 150px;
+  height: 35px;
+  border-radius: 3px;
+}
+
+.div4 p{
+  font-size: 20px;
+  padding-top: 7px;
+  margin-left: 35px;
+  font-family: Roboto;
+  font-weight: 500;
+  background-color: rgb(215, 218, 39);
+  width: 150px;
+  height: 35px;
+  border-radius: 3px;
+}
+
+.div5 p{
+  font-size: 20px;
+  padding-top: 3px;
+  margin-left: 90px;
+  font-family: Roboto;
+  font-weight: 500;
+  background-color: rgb(230, 227, 227);
+  width: 150px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.div6 p{
+  font-size: 20px;
+  padding-top: 7px;
+  margin-left: 90px;
+  font-family: Roboto;
+  font-weight: 500;
+  background-color: rgb(230, 227, 227);
+  width: 150px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+
+.link{
+  color: black;
+}
+
+.link:hover{
+  cursor: pointer;
+}
+
+
+
